@@ -1,0 +1,17 @@
+{
+  "watch": ["src"],
+  "ext": ".ts,.js",
+  "ignore": [],
+  "exec": "npx ts-node ./src/Index.ts",
+  "env": {
+    "NODE_ENV": "development",
+    "GOOGLE_CLIENT_ID": "redacted",
+    "GOOGLE_CLIENT_SECRET": "redacted",
+    "SERVER_URL": "http://localhost:3001",
+    "MONGODB_URI": "redacted",
+    "SESSION_SECRET": "redacted",
+    "PORT": 3001,
+    "OWNER_PASSWORD": "redacted",
+    "VERSION": "1.0.0-alpha.3"
+  }
+}

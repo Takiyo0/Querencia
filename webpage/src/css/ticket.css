@@ -1,0 +1,46 @@
+.ticket-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(https://cdn.redacted.redacted/wnzqWlmp7npd.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.error {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.ticket-parent img {
+    max-width: 90vw;
+    max-height: 80vh;
+    object-fit: cover;
+    aspect-ratio: 1/1.77;
+}
+
+.ticket-download {
+    display: flex;
+    align-items: center;
+    background-color: #B0DB78;
+    padding: 0 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.ticket-download:hover {
+    transform: scale(1.05);
+}
+
+.ticket-download a {
+    margin-left: 10px;
+}
